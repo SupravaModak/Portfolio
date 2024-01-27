@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suprava Modak Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left"><strong>Suprava's Portfolio</strong></div>
+      <div class="right">
+        <ul>
+          <li><a href="#firstsection">Home</a></li>
+          <li><a href="#secondsection">About</a></li>
+          <li><a href="#thirdsection">Projects</a></li>
+          <li><a href="#fourthsection">Contact-me</a></li>
+        </ul>
+      </div>
+
+    </nav>
+  </header>
+  <main>
+    <section class="firstsection" id="firstsection">
+      <div class="leftside">
+        <h5>Hi, My name is <span class="pink">Suprava Modak.</span>
+          <div>I am a passionate</div>
+          <br>
+          <span id="element"></span>
+        </h5>
+        <button class="btn" onclick="openResume()">
+          <h1>Resume</h1>
+          <img src="download.png" alt="">
+        </button>
+      </div>
+      <div class="rightside">
+        <img src="image.png" alt="">
+      </div>
+    </section>
+    <hr>
+    <section class="secondsection" id="secondsection">
+      <h1>About<span class="text-gray">(Short description of myself)</span></h1>
+      <div class="box">
+        <br>
+        <div>As a dedicated and focused Front-End Developer, I approach coding with patience and a strong work ethic,
+          ready to serve round the clock for project excellence.With a proficiency in HTML, CSS, and Javascript,</div>
+        <div> I am committed to creating seamless and visually appealing user experiences.Eager to expand my skill set,
+          I am actively seeking internships to delve into exciting projects and learn React.js.My hardworking nature and
+          proficiency in the JAVA programming language further solidify my commitment to crafting innovative and dynamic
+          web solutions.</div>
+      </div>
+      <div class="image">
+        <img src="image1.jpg" alt="">
+      </div><br><br>
+      <hr>
+    </section>
+    <br>
+    <section class="thirdsection" id="thirdsection">
+      <img src="image2.png">
+      <h1>Projects<span class="text-gray">(Works related to web developement)</span></h1>
+      <div class="box">
+        <div class="vertical">
+          <div class="vertical-title">
+            Weather Application
+          </div>
+          <div class="vertical-desc">
+            Developed a weather application using HTML, CSS, to display temperature,
+            wind speed, and humidity levels for various cities, showcasing API integration
+          </div>
+        </div>
+        <div class="vertical">
+          <div class="vertical-title">
+            Quiz Application
+          </div>
+          <div class="vertical-desc">
+            Developed a dynamic quiz application using HTML, CSS, and JavaScript, featuring questions and
+            calculation of overall marks.
+          </div>
+        </div>
+        <div class="vertical">
+          <div class="vertical-title">
+            Password Generator
+          </div>
+          <div class="vertical-desc">
+            Created a random password generator application using HTML, CSS, and JavaScript, allowing users to
+            generate and conveniently copy unique passwords
+          </div>
+        </div>
+        <div class="vertical">
+          <div class="vertical-title">
+            My Tunes Website
+          </div>
+          <div class="vertical-desc">
+            Created the Front end of a music website using HTML,CSS having various sections in it and also including
+            gift card option to redeem coupon code
+          </div>
+        </div>
+        <div class="vertical">
+          <div class="vertical-title">
+            Validate Form Details
+          </div>
+          <div class="vertical-desc">
+            Developed a validation form using HTML, CSS,Javascript to validate the details enetered by the user in the
+            form which inlcudes details like name,email, phone number
+          </div>
+        </div>
+        <div class="vertical">
+          <div class="vertical-title">
+            Basic Dating Website
+          </div>
+          <div class="vertical-desc">
+            Developed a basic dating website using HTML and CSS displaying love quotes , images , membership perks and
+            creating account in it
+          </div>
+        </div>
+      </div>
+      <div class="linkedin">
+        <a href="https://www.linkedin.com/in/suprava-modak-7baa18228">
+          <button><img src="linkedin.png"></button></a>
+      </div>
+      <div class="github">
+        <a href="https://github.com/SupravaModak">
+          <button><img src="github.png"></button></a>
+      </div>
+      <hr>
+    </section>
+    <div class="fourth-section" id="fourthsection">
+      <img src="aboutme.png">
+      <h1>Contact-me<span class="text-gray">( Let's get in touch )</span></h1>
+      <div class="contact-me">
+        <form action="mailto:modaksuprava.74@gmail.com" method="post">
+          <div class="name"><input type="text" class="name1" placeholder="Your Name"></div>
+          <div class="email"><input type="email" class="email1" placeholder="E - mail"></div>
+          <button class="submit" input type="submit"><img src="send.png"></button>
+          <div class="message"><textarea rows="7" placeholder="Enter  message  from  your  side"
+              class="message1"></textarea></div>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="script.js">
+  </script>
+</body>
+
+</html>
