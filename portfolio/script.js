@@ -3,5 +3,5 @@ var typed = new Typed('#element', {
     typeSpeed: 70,
   });
  function openResume(){
-    window.open("Suprava Modak Resume.pdf")
+    window.open("myResume.pdf")
  }
